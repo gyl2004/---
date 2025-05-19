@@ -23,13 +23,12 @@
 - `calculator.TokenType` - 词法单元类型
 - `calculator.Calculator` - 主类，提供交互式环境
 - `calculator.CalculatorGUI` - 基本图形界面
-- `calculator.SmartCalculatorGUI` - 智能图形界面，支持语法高亮和代码补全
+
 
 ## 如何使用
 
 1. 运行 `Calculator` 类进入交互式命令行环境
 2. 运行 `CalculatorGUI` 类启动图形界面
-3. 运行 `SmartCalculatorGUI` 类启动高级智能界面
 
 ## 语法示例
 
@@ -64,18 +63,7 @@ print "sin(30) = " + sinValue;
 print "三角形面积 = " + area;
 ```
 
-## 图形界面功能
 
-智能图形界面 (SmartCalculatorGUI) 提供以下功能：
-
-1. **自动代码补全** - 输入时自动显示函数和关键字建议
-2. **语法高亮** - 关键字、函数、数字、字符串等使用不同颜色显示
-3. **智能代码模板** - 提供常用代码模板（如三角形面积计算示例）
-4. **历史记录** - 自动保存已执行的计算，可快速重用
-5. **代码格式化** - 一键格式化代码，自动添加缩进和分号
-6. **快捷键支持** - Ctrl+Enter执行计算，Ctrl+Space显示智能建议
-
-## 特殊功能说明
 
 ### 三角形面积计算
 
