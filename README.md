@@ -96,4 +96,4 @@ triangleArea(3, 4, 5)  // 结果: 6
 
 ## 项目作者
 
-- 编译原理课程作业 
+- liangliang
